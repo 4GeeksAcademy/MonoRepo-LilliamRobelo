@@ -1,6 +1,16 @@
-# Que empresa elegiste y por qué?
+# ¿Qué empresa elegiste y por qué?
 
-## Escogí TrackFlow, porque me gustaría poder demostrar competencias sólidas de AI Engineering, automatización e integración de sistemas y creo que es una buena oportunidad para hacerlo. 
-Sobre todo porque creo que puedo construir soluciones donde la IA no se limite a responder preguntas, sino que analice información, recomiende decisiones y desencadene acciones operativas reales de manera automatizada. 
+## Escogí TrackFlow, porque me gustaría poder demostrar competencias sólidas de AI Engineering, automatización e integración de sistemas y creo que es una buena oportunidad para hacerlo. Sobre todo porque creo que puedo construir soluciones donde la IA no se limite a responder preguntas, sino que analice información, recomiende decisiones y desencadene acciones operativas reales de manera automatizada. 
 
-  
+# Departamentos con problemas 
+
+## Encuentro particularmente interesante trabajar con estos departamentos: 
+  1. Última Milla y Gestión de Transportistas: Me interesa porque actualmente gran parte del seguimiento de envíos se realiza manualmente. Creo que se puede automatizar la consulta de estados y la detección de incidencias y eso permitiría mejorar los procesos operativos.
+  2. Experiencia del Cliente: Me parece interesante porque recibe muchas consultas repetitivas que podrían resolverse mediante un asistente de IA conectado con la información de los pedidos, reduciendo tareas manuales.
+
+# Reto de automatización /Lo que intentaré construir con la IA 
+
+## Me gustaría desarrollar un sistema inteligente de seguimiento de envíos y gestión inicial de incidencias.
+La idea es crear una aplicación que permita consultar el estado de un pedido, detectar automáticamente retrasos o entregas fallidas y utilizar un asistente de IA para responder preguntas frecuentes.
+Además, integraría una automatización con n8n para generar alertas o tickets cuando se identifique una incidencia.
+Para el MVP utilizaría datos simulados de envíos, una base de datos y una interfaz sencilla. Posteriormente, el sistema podría ampliarse mediante integraciones con transportistas reales.
