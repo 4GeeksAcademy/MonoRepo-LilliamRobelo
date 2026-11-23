@@ -14,3 +14,15 @@
 La idea es crear una aplicación que permita consultar el estado de un pedido, detectar automáticamente retrasos o entregas fallidas y utilizar un asistente de IA para responder preguntas frecuentes.
 Además, integraría una automatización con n8n para generar alertas o tickets cuando se identifique una incidencia.
 Para el MVP utilizaría datos simulados de envíos, una base de datos y una interfaz sencilla. Posteriormente, el sistema podría ampliarse mediante integraciones con transportistas reales.
+
+# Mi agente de IA
+
+## Lo diseñaría para conectar los dos departamentos que elegiste: Última Milla y Gestión de Transportistas y Experiencia del Cliente.
+
+Las capacidades que quiero construir son: 
+
+1. Consultar pedidos: Utiliza una herramienta llamada "consultar_pedido" para recuperar el estado de un envío desde la base de datos. No inventa información ni supone dónde está un paquete.
+2. Responder preguntas: Consulta documentación sobre entregas, devoluciones e incidencias. Por ejemplo: «¿Qué ocurre si no estoy en casa cuando llega el transportista?».
+3. Identificar incidencias: Interpretar estados como "delivery_failed" o "delayed" y explica a la persona qué ha ocurrido.
+4. Crear tickets automáticamente: Si una persona confirma que quiere abrir una incidencia, el agente llama a "crear_ticket". Esta acción puede activar un flujo en n8n que registra y notifica el problema para el seguimiento adecuado. 
+5. En un futuro (integrar el seguimiento de un ticket, con FAQ que suelan repetirse y con las tareas más repetitivas: dar seguimiento, evaluar y resolver incidencias generadas para el usuario. O bien que derive a los departamentos correspondientes. 
